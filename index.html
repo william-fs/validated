@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="info-header">
+        <img src="img/validated_logo.png" alt="validated">
+        <h2>
+            VALIDAÇÃO DE FORMATOS
+        </h2>
+        <h3>
+            CLIENTE: NEW CLIENTE INC.
+            CAMPANHA: SUA MARCA AQUI
+        </h3>
+        <p>
+            PERÍODO DE VEICULAÇÃO: DE xx/xx/xx ATÉ xx/xx/xx
+        </p>
+    </div>
+    <br>
+    <hr>
+
+    <div class="box-selecao">
+
+        <div class="campos">
+            <div>
+                <p class="tags-resp">
+                    <span>Selecione a linha criativa</span>
+                </p> 
+                <select name="linhaCriativa" id="linhaCriativa" class="drop" placeholder="Escolha a Linha criativa">
+                    <option value="nulo">-</option>
+                    <!-- Colocar a quantidade de linhas criativas disponíveis: -->
+                    <option value="linhaVideos1">Linha Vídeos 1</option>
+                    <option value="linhaVideos2">Linha Vídeos 2</option>
+                    <option value="linhaVideos3">Linha Vídeos 3</option>
+                </select>
+            </div>
+            
+            <div>
+                <p class="tags-resp">
+                    <span>Selecione a Versão</span>
+                </p> 
+                <select name="versao" id="versao" class="drop" placeholder="Escolha a versão">
+                <option value="nulo">-</option>
+                </select>
+            </div>
+
+            <div>
+                <p class="tags-resp">
+                    <span>Selecione o Formato</span>
+                </p> 
+                <select name="formato" id="formato" class="drop" placeholder="Escolha o formato">
+                    <option value="nulo">-</option>
+                </select>
+            </div>
+        </div>
+    </div>  
+
+    <!-- BOTÃO DE DIRECIONAMENTO PARA A PÁGINA DE DOWNLOAD DOS PACKS DAS PEÇAS APROVADAS -->
+
+    <div class="container">
+        <div class="campos">
+            <div class="btn">
+                <a href="aprovadas.html" target="_blank"> 
+                    <button class="btn_reload">Download do(s) pack(s) aprovado(s)</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTÃO DE DIRECIONAMENTO PARA A PÁGINA DE DOWNLOAD DOS PACKS DAS PEÇAS APROVADAS -->
+
+    
+
+    <div id="banner"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
